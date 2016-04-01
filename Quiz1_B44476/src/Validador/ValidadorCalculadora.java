@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  */
 public class ValidadorCalculadora
 {
-    private final static String metodospattern = "^\\d{0-9}@{digit}+\\s$";
+    private final static String metodospattern = "^\\d+@{digit}+\\s$";
     
     
      public boolean validarMetodos(String resultado)

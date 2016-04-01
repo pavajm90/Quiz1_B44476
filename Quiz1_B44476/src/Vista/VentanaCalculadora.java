@@ -33,10 +33,10 @@ public class VentanaCalculadora extends javax.swing.JFrame
 
         jPanel1 = new javax.swing.JPanel();
         btCalcular = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
+        expresiones = new javax.swing.JTextField();
         jLExp = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
+        resultados = new javax.swing.JTextPane();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -46,7 +46,7 @@ public class VentanaCalculadora extends javax.swing.JFrame
         jLExp.setFont(new java.awt.Font("Trebuchet MS", 0, 10)); // NOI18N
         jLExp.setText("Exp");
 
-        jScrollPane1.setViewportView(jTextPane1);
+        jScrollPane1.setViewportView(resultados);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel1.setText("Operaciones Calculadora");
@@ -61,7 +61,7 @@ public class VentanaCalculadora extends javax.swing.JFrame
                         .addGap(33, 33, 33)
                         .addComponent(jLExp, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(expresiones, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btCalcular))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -81,7 +81,7 @@ public class VentanaCalculadora extends javax.swing.JFrame
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(31, 31, 31)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(expresiones, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLExp, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btCalcular))
                 .addGap(45, 45, 45))
@@ -165,11 +165,11 @@ public class VentanaCalculadora extends javax.swing.JFrame
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btCalcular;
+    private javax.swing.JTextField expresiones;
     private javax.swing.JLabel jLExp;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTextPane resultados;
     // End of variables declaration//GEN-END:variables
 }
